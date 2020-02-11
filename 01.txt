@@ -1,3 +1,4 @@
 GOOS=linux go build -o main
+zip deployment.zip main 
 
 https://aws.amazon.com/blogs/compute/announcing-go-support-for-aws-lambda/
